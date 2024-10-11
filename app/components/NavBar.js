@@ -10,10 +10,11 @@ export default function NavBar({ navigation }) {
       <TouchableOpacity style={styles.navItem} onPress={() => navigation.navigate('Empresa')}>
         <Text style={styles.navText}>EMPRESA</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.navItem}>
+      <TouchableOpacity style={styles.navItem} onPress={() => navigation.navigate('Serviços')}> 
         <Text style={styles.navText}>SERVIÇOS</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.navItem}>
+      <TouchableOpacity style={styles.navItem}  onPress={() => navigation.navigate('Contato')}>
+
         <Text style={styles.navText}>CONTATO</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.navItem} onPress={() => navigation.navigate('Links')}>

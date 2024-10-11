@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, StyleSheet, View } from 'react-native';
 
-const logo = require('../assets/images/logoAE.jpg'); // Certifique-se de que o caminho está correto
+const logo = require('../assets/images/logoAE.jpg'); 
 
 export default function Header() {
   return (

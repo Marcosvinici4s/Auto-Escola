@@ -1,6 +1,6 @@
 import React from 'react';
 import { Stack } from 'expo-router';
-import Header from './Header'; // Certifique-se de que o caminho está correto
+import Header from './Header';
 
 
 export default function RootLayout() {
