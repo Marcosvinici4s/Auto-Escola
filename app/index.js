@@ -7,6 +7,7 @@ import RootLayout from './_layout';
 import LinksScreen from './screens/LinksScreen'
 import ContatoScreen from './screens/ContatoScreen'
 import ServicosScreen from './screens/ServicosScreen'
+// import ContatoScreen from './screens/ContatoScreen'
 
 const Stack = createStackNavigator();
 
