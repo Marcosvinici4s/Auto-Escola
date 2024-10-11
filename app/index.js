@@ -5,6 +5,8 @@ import EmpresaScreen from './screens/EmpresaScreen';
 import NavBar from './components/NavBar';       // Importe a barra de navegação
 import RootLayout from './_layout';
 import LinksScreen from './screens/LinksScreen'
+import ContatoScreen from './screens/ContatoScreen'
+import ServicosScreen from './screens/ServicosScreen'
 
 const Stack = createStackNavigator();
 
@@ -15,6 +17,8 @@ export default function App() {
       <Stack.Screen name="Empresa" component={EmpresaScreen} />
       <Stack.Screen name="index" component={RootLayout} options={{ title: "Auto Escola Piloto" }} />
       <Stack.Screen name="Links" component={LinksScreen} />
+      <Stack.Screen name="Contato" component={ContatoScreen} />
+      <Stack.Screen name="Serviços" component={ServicosScreen} />
     </Stack.Navigator>
   );
 }

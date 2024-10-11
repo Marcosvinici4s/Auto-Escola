@@ -1,33 +1,12 @@
-// import React from 'react';
-// import { View, Text, StyleSheet } from 'react-native';
-
-// export default function EmpresaScreen() {
-//   return (
-//     <View style={styles.container}>
-//       <Text>Sobre a Empresa</Text>
-//     </View>
-//   );
-// }
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     justifyContent: 'center',
-//     alignItems: 'center',
-//   },
-// });
-
 import React from 'react';
 import { View, Text, StyleSheet, Image, ScrollView } from 'react-native';
 
 export default function EmpresaScreen() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
-     
-      
       <Text style={styles.heading}>Sobre a Auto Escola Piloto</Text>
       <Text style={styles.paragraph}>
-        Fundada em 1995, a Auto Escola Piloto tem mais de 25 anos de experiência em formar condutores
+        Fundada em 2024, a Auto Escola Piloto tem mais de 25 anos de experiência em formar condutores
         seguros e conscientes. Nossa missão é garantir que cada aluno receba a melhor educação de
         direção, com foco em segurança, responsabilidade e confiança ao volante.
       </Text>
