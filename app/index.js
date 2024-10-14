@@ -7,7 +7,7 @@ import RootLayout from './_layout';
 import LinksScreen from './screens/LinksScreen'
 import ContatoScreen from './screens/ContatoScreen'
 import ServicosScreen from './screens/ServicosScreen'
-// import ContatoScreen from './screens/ContatoScreen'
+import SignupScreen from './screens/SignupScreen';
 
 const Stack = createStackNavigator();
 
@@ -19,8 +19,28 @@ export default function App() {
       <Stack.Screen name="index" component={RootLayout} options={{ title: "Auto Escola Piloto" }} />
       <Stack.Screen name="Links" component={LinksScreen} />
       <Stack.Screen name="Contato" component={ContatoScreen} />
+      <Stack.Screen name="Signup" component={SignupScreen} />
       <Stack.Screen name="Serviços" component={ServicosScreen} />
     </Stack.Navigator>
   );
 }
 
+
+// import React from 'react';
+// import { Stack } from 'expo-router';
+// import Header from './Header';
+
+
+// export default function RootLayout() {
+//   return (
+//     <>
+
+//       <Header /> {/* Adiciona o logo acima do Stack */}
+//       <Stack screenOptions={{ headerShown: false }}> {/* O "index" será ocultado */}
+//         {/* O "index" será ocultado */}
+//       </Stack>
+//       {/* <Headerr /> */}
+//     </>
+//   );
+// }
+  

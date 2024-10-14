@@ -13,8 +13,7 @@ export default function NavBar({ navigation }) {
       <TouchableOpacity style={styles.navItem} onPress={() => navigation.navigate('Serviços')}> 
         <Text style={styles.navText}>SERVIÇOS</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.navItem}  onPress={() => navigation.navigate('Contato')}>
-
+      <TouchableOpacity style={styles.navItem}  onPress={() => navigation.navigate('Signup')}>
         <Text style={styles.navText}>CONTATO</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.navItem} onPress={() => navigation.navigate('Links')}>
